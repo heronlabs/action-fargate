@@ -1,4 +1,4 @@
-# 🚀 action-fargate-publish — Force ECS Fargate deployment
+# 🚀 action-fargate — Force ECS Fargate deployment
 
 [![CI][ci-badge]][ci-url]
 [![License: MIT][license-badge]][license-url]
@@ -39,7 +39,7 @@ jobs:
       - uses: actions/checkout@v7
 
       - name: Rolling deploy
-        uses: heronlabs/action-fargate-publish@v3
+        uses: heronlabs/action-fargate@v3
         with:
           AWS_ROLE_TO_ASSUME: ${{ secrets.AWS_ROLE_ARN }}
           AWS_REGION: us-east-1
@@ -122,9 +122,9 @@ Composite action with a single shell script (`core/publish.sh`):
 
 MIT
 
-[ci-badge]: https://github.com/heronlabs/action-fargate-publish/actions/workflows/continuous-integration.yml/badge.svg
-[ci-url]: https://github.com/heronlabs/action-fargate-publish/actions/workflows/continuous-integration.yml
+[ci-badge]: https://github.com/heronlabs/action-fargate/actions/workflows/continuous-integration.yml/badge.svg
+[ci-url]: https://github.com/heronlabs/action-fargate/actions/workflows/continuous-integration.yml
 [license-badge]: https://img.shields.io/badge/License-MIT-blue.svg
 [license-url]: ./LICENSE
 [marketplace-badge]: https://img.shields.io/badge/GitHub-Marketplace-green.svg
-[marketplace-url]: https://github.com/marketplace/actions/action-fargate-publish
+[marketplace-url]: https://github.com/marketplace/actions/action-fargate
