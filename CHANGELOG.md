@@ -1,3 +1,9 @@
+## v4.0.7 (2026-10-23)
+
+### Documentation
+
+* docs: point README to renamed heronlabs/action-ecr (#34) (ed9eb3af106b38417ff0eddfd165c8cacc9c4f89)
+
 ## v4.0.6 (2026-10-23)
 
 ### Documentation
