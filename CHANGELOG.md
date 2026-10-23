@@ -1,3 +1,9 @@
+## v4.0.6 (2026-10-23)
+
+### Documentation
+
+* docs: rename action-fargate-publish to action-fargate (#33) (3ef295587fb7beae88a48d210b31ce1cc3dc1f56)
+
 ## v4.0.5 (2026-09-17)
 
 ### Miscellaneous Chores
