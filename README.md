@@ -114,7 +114,7 @@ Composite action with a single shell script (`core/publish.sh`):
 
 ## Notes
 
-- Forces a rolling redeploy; it does NOT change the task-definition image tag. Update the task definition separately to deploy a new tag, typically after `heronlabs/action-ecr-publish@v3`.
+- Forces a rolling redeploy; it does NOT change the task-definition image tag. Update the task definition separately to deploy a new tag, typically after `heronlabs/action-ecr@v3`.
 - Hard-fails if `CLUSTER_NAME` or `SERVICE_NAME` is missing.
 - OIDC only — no long-lived access keys.
 
